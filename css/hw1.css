@@ -1,0 +1,104 @@
+body {
+    margin: 1%; 
+    padding: 5px;
+    font-size: 110%;
+}
+header {
+    background: #b3b3cc url("../images/img1.jpg") no-repeat;
+    background-size: cover;
+    padding: 4%;
+}
+h1 {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: serif, Arial, Helvetica; 
+    font-size: 150%;
+    text-align: center;
+    padding-bottom: 2%;
+}
+nav a {
+    display: inline-block;
+    width:20%;
+    height: 40px;
+    margin-right: 4%;
+    padding-top: 18px;
+    font-size: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: #0e0e0e;
+    background-color: #ffffff;
+    opacity: .5;
+    border-radius: 6px;
+}
+.active {
+    background-color: #dd6b8a;
+    opacity: .7;
+}
+.left {
+    width: 19%;
+    display: inline-block;
+    background-color: pink;
+    padding: 10px;
+    float: left;
+    height: 100vh;
+}
+img{
+    width: 75%;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: 2.5px solid #151010;
+}
+.right {
+    width: 75%;
+    display: inline-block; 
+    padding-left: 10px;
+}
+h2 {
+    color:  #151010;
+    font-family: serif, Arial, Helvetica;
+}
+table {
+	box-sizing: border-box;
+	margin: 0 auto;
+	width: 85%;
+	font-family: Helvetica, serif, Arial; 
+	font-size: 95%;
+	line-height: 95%;
+}
+th {
+	background: #f199a8;
+	background: -moz-linear-gradient(top,  #bf6070  0%,  #d9acc2 100%);
+	background: -webkit-linear-gradient(#bf6070  0%, #d9acc2 100%);
+	background: -o-linear-gradient(#bf6070  0%,  #d9acc2 100%);
+	background: linear-gradient(#bf6070 0%,  #d9acc2 100%); 
+	color: #ffffff;
+	border: 0.8px solid #a25c5c;
+	border-bottom: 3px solid #a25c5c;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	line-height: 160%;
+	padding: 9px 18px;
+	text-align: center;
+}
+td {
+	font-family: ;
+	font-size: 90%;
+	text-align: center;
+	color: #000000;
+	background-color: #f8d6dc; 
+	padding: 9px 18px;
+	opacity: .7;
+}
+td:hover {
+        opacity: 1;
+}
+th:nth-child(1) {
+	text-align: left;
+}
+td:nth-child(1) {
+	text-align: left;
+}
+
